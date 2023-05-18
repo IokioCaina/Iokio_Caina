@@ -1,0 +1,38 @@
+public class Aluno{
+    String nome;
+    String telefone;
+    String endereco;
+    String filiação;
+    double altura;
+    String data_de_nascimento;
+    String disciplina;
+    public static void main(String args[]){
+    Aluno aluno= new Aluno();
+    aluno.nome = "Iokio";
+    aluno.telefone = "55446699";
+    aluno.endereco = "Rua Victorio ,63";
+    aluno.filiação = "Catarina, Juca";
+    aluno.altura = 1.72;
+    aluno.data_de_nascimento = "13.12.1876";
+    aluno.disciplina = "Artes";
+    System.out.println(aluno.nome);
+    System.out.println(aluno.telefone);
+    System.out.println(aluno.endereco);
+    System.out.println(aluno.filiação);
+    System.out.println(aluno.altura);
+    System.out.println(aluno.data_de_nascimento);
+    System.out.println(aluno.disciplina);
+}
+    
+    public void Matricular(String n, String t, String e, String f, double a, String d,   String di){
+        this.nome = n;
+        this.telefone= t;
+        this.endereco= e;
+        this.filiação= f;
+        this.altura= a;
+        this.data_de_nascimento= d;
+        this.disciplina= di;
+        
+    }
+}
+   
